@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Saagar-lab.github.io/game",
   "name": "treasure-hunt-game",
   "private": true,
   "version": "0.0.0",
@@ -7,13 +8,12 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
-
-
     "@babel/runtime": "^7.27.0",
-
     "firebase": "^11.6.0",
     "framer-motion": "^12.7.4",
     "html5-qrcode": "^2.3.8",
