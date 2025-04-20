@@ -102,12 +102,7 @@ const Leaderboard = () => {
           </table>
         </div>
         {/* Back to Home Button */}
-        <button
-          onClick={() => navigate("/")}
-          className="mt-5 px-4 py-2 rounded-lg bg-green-600 text-white font-semibold hover:bg-green-700 transition"
-        >
-          ⬅️ Back to Home
-        </button>
+        
       </main>
 
       <Footer />
